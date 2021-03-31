@@ -29,7 +29,7 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            <i class="fas fa-pizza-slice" />
+            <i className="fas fa-pizza-slice" />
             Rare Pizzas - Pizza Experimenter and Ingredients Submissions
           </Link>
           <div className="menu-icon" onClick={handleClick}>
@@ -38,7 +38,7 @@ function Navbar() {
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                {click ? <i class="fas fa-home" /> : null}
+                {click ? <i className="fas fa-home" /> : null}
                 Make Random Pizzas
               </Link>
             </li>
