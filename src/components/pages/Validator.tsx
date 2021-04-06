@@ -1,11 +1,11 @@
 import React from 'react';
 import '../../App.css';
-import Pizza from '../Pizza';
+import PizzaMicro from '../PizzaMicro';
 
 function Validator() {
   return (
     <>
-      <Pizza />
+      <PizzaMicro />
     </>
   );
 }
